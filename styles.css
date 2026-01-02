@@ -1,6 +1,30 @@
-body{
-    font-family: 'Outfit', sans-serif;
-    background-color: hsl(212, 45%, 89%)
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(212, 45%, 89%);
+}
+
+footer {
+    position: fixed;
+    bottom: 16px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 11px;
+    color: hsl(220, 15%, 55%);
+}
+
+footer a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
 
 .attribution {
